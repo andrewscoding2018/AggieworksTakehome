@@ -9,7 +9,6 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1>Hello! This is Andrew Kuang's stock graph project.</h1>
-        {/* <FetchAPI/> */}
         <FetchPolygon/>
       </header>
     </div>
