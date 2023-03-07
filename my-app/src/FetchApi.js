@@ -40,6 +40,7 @@ function FetchAPI() {
       <div>
         <p>{data.disclaimer}</p>
         <p>{data.bpi.USD.code}</p>
+        <p>{data}</p>
       </div>
     );
   };
@@ -47,7 +48,7 @@ function FetchAPI() {
   return (
     <>
       <button onClick={apiGet}>Fetch API</button>
-      <>{displayData}</>
+      <div>{displayData}</div>
       <div className="stock-container">
         {/* {data.map((item, i) => {
           return (
